@@ -1,0 +1,49 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+}
+.toprow {
+    height: 25%;
+    width: 100%;
+	background-color: #3FE816;
+}
+.center-content {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middlerow {
+    height: 50%;
+    width: 100%;
+	background-color: #FF00DE;
+}
+.botrow{
+    height: 25%;
+    width: 100%;
+	background-color: #3FE816;
+}
+.center-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.othird {
+	display: block;
+    height: 100%;
+    width: calc(100%/3);
+}	
+.restrict {
+	max-height: 100%;
+	max-width: 100%;
+}
+.opaque {
+	opacity: 0;
+}
+.none {
+	display: none;
+}
+.font {
+	font-size: 24;
+}
