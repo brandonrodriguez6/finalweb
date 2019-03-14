@@ -23,7 +23,7 @@ body {
     width: 100%;
 	background-color: #FF00DE;
 }
-//
+//The bottom row has a height of 25% of the screen and a width of 100% of the screen with a green background color. This div is the bottom half of the screen.
 .botrow{
     height: 25%;
     width: 100%;
@@ -34,21 +34,26 @@ body {
     align-items: center;
     justify-content: center;
 }
+//the ohthird class is the parent of all the other divs so it sets the display to block which makes the divs stack on top of eachother but since the body is flex it goes in collums. It has a height of 100% and the function calc which splits up the divs in three seprate parts.
 .othird {
 	display: block;
     height: 100%;
     width: calc(100%/3);
 }	
+//This class restrict the image size. I restrict the image so it perfectly fits the div so nothing is bigger than the div or looks small.
 .restrict {
 	max-height: 100%;
 	max-width: 100%;
 }
+//the opaque class makes the image not visible since it has an opacity of 0.
 .opaque {
 	opacity: 0;
 }
+// Displays nothing when applied.
 .none {
 	display: none;
 }
+//The class font is added to my text so I can make the text bigger.
 .font {
 	font-size: 24;
 }
